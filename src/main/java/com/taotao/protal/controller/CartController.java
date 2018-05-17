@@ -21,7 +21,7 @@ import com.taotao.protal.service.CartService;
 public class CartController {
 	@Autowired
 	private CartService cartService;
-
+//,sdlsadlksadjsa
 	@RequestMapping("/add/{itemId}")
 	public String addCart(@PathVariable long itemId, @RequestParam(defaultValue = "1") Integer num,
 			HttpServletRequest request, HttpServletResponse response) {
